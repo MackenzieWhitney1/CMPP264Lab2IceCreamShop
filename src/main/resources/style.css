@@ -1,0 +1,38 @@
+#result{
+    -fx-background-color: #00ffff;
+    -fx-font-weight: bold;
+}
+
+#lblTitle{
+-fx-font-size: 20;
+-fx-font-weight: bold;
+}
+
+.list-view {
+-fx-background-color: #00ffff;
+}
+.list-view .list-cell:even {
+-fx-background-color: #00ffff;
+-fx-text-fill: black;
+}
+.list-view .list-cell:odd {
+-fx-background-color: #00e6e6;
+-fx-text-fill: black;
+}
+
+.custom-choicebox, .label, .radio-button, .check-box, .button  {
+-fx-font-size: 14;
+}
+
+.header {
+-fx-font-size: 15;
+-fx-font-weight: bold;
+}
+
+.custom-list-view {
+-fx-font-size: 16
+}
+
+.radio-button, .check-box {
+-fx-padding: 5;
+}
